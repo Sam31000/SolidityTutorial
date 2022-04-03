@@ -11,7 +11,4 @@ contract("FavoriteNumber", accounts =>{
         const result = await Contract.getFavoriteNumber();
         assert.equal(result.words[0], 17, "Not equal to 17");
     })
-
-
-
 });
